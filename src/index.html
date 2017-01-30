@@ -3,11 +3,35 @@
 <head> <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <title>Swisscom Digital Lab Online Demo</title>
 </head>
-<body>
-    <img src="https://wiki.swisscom.com/download/attachments/159218985/overview_8.png?version=1&modificationDate=1481112867000&api=v2" alt="Toolbox" usemap="#toolboxmaping" width= 100% height= 100%>
+<body bgcolor="#000000">
+    <img src="https://wiki.swisscom.com/download/attachments/159218985/overview_8.png?version=1&modificationDate=1481112867000&api=v2" alt="Toolbox" usemap="#toolboxmaping" border="0" width="100%">
 
+    # to locate points/areas use: http://imagemap-generator.dariodomi.de/
+
+    # all mobility
     <map name="toolboxmaping">
-        <area shape="rect" coords="0,0,20,20" href="http://www.elpais.es" alt="elpaist">
+        <area shape="rect" coords="964,322,1388,682" href="https://insights.swisscom.ch/city" alt="City">
+
+    # device lifetime management
+        <area shape="rect" coords="1906,978,2098,1110" href="https://digitallab.dataanalytics.swisscom.com/analytics-cloud-frontend/index.php" alt="BCU">
+
+    # device integration
+        <area shape="rect" coords="1942,830,2070,954" href="https://waltermeier.dataanalytics.swisscom.com/" alt="WalterMaier">
+
+    # IA (1,0)
+        <area shape="rect" coords="402,374,922,514" href="https://sonar-client-development.scapp.io/" alt="Sonar">
+
+    # DCS
+        <area shape="rect" coords="1642,1114,1854,1270" href="https://www.swisscom.ch/en/business/sme/digital-work/hosting-und-webservices/dcs.html" alt="DCS">
+
+    # PAAS -- APPS -- CF
+        <area shape="rect" coords="818,822,986,1266" href="https://scapp-console.swisscom.com/#/orgs/bdf1b7fb-e35c-4857-9106-d56ffdc4217b" alt="CF">
     </map>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/image-map-resizer/js/imageMapResizer.min.js"></script>
+    <script type="text/javascript">
+            $('map').imageMapResize();
+    </script>
 </body>
 </html>
